@@ -1,0 +1,93 @@
+ul {
+  list-style: none;
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+ul > button {
+  color: white;
+  background-color: red;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  list-style: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #025f70;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  background: #4eb9cd;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons > button {
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+
+.Times-input {
+  color: #4eb9cd;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #4eb9cd;
+  padding: 15px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -35px;
+}
+
+form > div {
+  display: flex;
+  align-items: center;
+}
+
+#hour {
+  width: 30%;
+}
+
+#min {
+  width: 30%;
+}
+
+#addTime {
+  background-color: #4eb9cd;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+form > h1 {
+  font-size: 3rem;
+}
+
+.feed-now {
+  background-color: #4eb9cd;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  margin: 30px;
+}
