@@ -12,4 +12,4 @@ There is also a "FEED NOW" button located at the bottom of the app that will dis
 The hardware file contains all of the code for the esp8266 microcontroller.
 
 ### App Folder
-The app file contains all of the source code for the web app. The server folder within contains all code for the express api and the client folder contains the code for the react frontend
+The app file contains all of the source code for the web app. The server folder within contains all code for the express api and the client folder contains the code for the react frontend.
